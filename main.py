@@ -26,6 +26,7 @@ for port in range(start_port, end_port + 1):
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     # sock_stream means TCP ports
     # AF_Inet means address family of Internet and IPv4
+    print("Scanning port:", port)
     conn = s.connect((target, port))
     if not conn:
         print("Port {} is closed".format(port))
