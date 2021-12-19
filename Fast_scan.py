@@ -2,7 +2,6 @@
 
 import socket
 import sys
-import time
 import threading
 
 usage = "python3 main.py TARGET START_PORT END_PORT"
