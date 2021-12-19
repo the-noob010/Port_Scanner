@@ -33,7 +33,6 @@ for port in range(start_port, end_port + 1):
     s.settimeout(2)
     # sock_stream means TCP ports
     # AF_Inet means address family of Internet and IPv4
-    print("Scanning target:", target)
     conn = s.connect_ex((target, port))
     if not conn:
         print("Port {} is OPEN".format(port))
