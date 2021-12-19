@@ -5,6 +5,12 @@ import sys
 import time
 
 usage = "python3 main.py TARGET START_PORT END_PORT"
+
+# only for style
+print("-" * 70)
+print()
+print("Simple Python Port Scanner")
+print()
 print("-" * 70)
 
 if len(sys.argv) != 4:
