@@ -30,7 +30,7 @@ print("Scanning target:", target)
 
 
 def scan_port(port):
-    print("Scanning port:", port)
+    #print("Scanning port:", port)
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.settimeout(2)
     # sock_stream means TCP ports
